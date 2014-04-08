@@ -1,7 +1,11 @@
 package { 'git':
-    ensure => present
+  ensure => present
 }
 
 package { 'terminator':
-    ensure => present
+  ensure => present
+}
+
+package { 'emacs24':
+  ensure => present
 }
