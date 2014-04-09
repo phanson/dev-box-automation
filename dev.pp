@@ -21,3 +21,7 @@ package { 'firefox':
 package { 'chromium-browser':
   ensure => present
 }
+
+package { 'dia':
+  ensure => present
+}
