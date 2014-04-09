@@ -13,3 +13,11 @@ package { 'emacs24':
 package { 'virtualbox':
   ensure => present
 }
+
+package { 'firefox':
+  ensure => present
+}
+
+package { 'chromium-browser':
+  ensure => present
+}
