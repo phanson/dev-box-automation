@@ -9,3 +9,7 @@ package { 'terminator':
 package { 'emacs24':
   ensure => present
 }
+
+package { 'virtualbox':
+  ensure => present
+}
