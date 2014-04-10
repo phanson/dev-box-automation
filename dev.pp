@@ -25,3 +25,11 @@ package { 'chromium-browser':
 package { 'dia':
   ensure => present
 }
+
+package { 'htop':
+  ensure => present
+}
+
+package { 'less':
+  ensure => present
+}
