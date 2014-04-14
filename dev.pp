@@ -2,6 +2,10 @@ package { 'git':
   ensure => present
 }
 
+package { 'gitg':
+  ensure => present
+}
+
 package { 'terminator':
   ensure => present
 }
