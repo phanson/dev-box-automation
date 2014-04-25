@@ -41,3 +41,7 @@ package { 'less':
 package { 'texlive-full':
   ensure => present
 }
+
+package { 'jq':
+  ensure => present
+}
