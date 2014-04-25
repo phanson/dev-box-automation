@@ -37,3 +37,7 @@ package { 'htop':
 package { 'less':
   ensure => present
 }
+
+package { 'texlive-full':
+  ensure => present
+}
