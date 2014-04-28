@@ -45,3 +45,7 @@ package { 'texlive-full':
 package { 'jq':
   ensure => present
 }
+
+package { 'libxml2-utils':
+  ensure => present
+}
