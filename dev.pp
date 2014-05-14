@@ -49,3 +49,7 @@ package { 'jq':
 package { 'libxml2-utils':
   ensure => present
 }
+
+package { 'xclip':
+  ensure => present
+}
